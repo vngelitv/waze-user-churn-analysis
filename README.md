@@ -96,3 +96,46 @@ These variables provide additional information about the driving behavior of ret
 ## Note
 
 This is an educational project based on synthetic data and course materials from the Google Advanced Data Analytics Professional Certificate.
+
+## Project Progression
+
+### Course 1: Data Inspection and Organization
+
+- Imported and inspected the Waze user dataset
+- Reviewed data types and missing values
+- Compared retained and churned users
+- Examined device distributions
+- Created initial behavioral features
+- Prepared the data for deeper exploratory analysis
+
+### Course 2: Exploratory Data Analysis and Visualization
+
+- Examined distributions using box plots, histograms, pie charts, and scatterplots
+- Compared activity days with driving days
+- Analyzed retention and churn by device type
+- Created a kilometers-per-driving-day feature
+- Investigated churn rates by driving frequency and distance
+- Created a percentage-of-sessions-in-the-last-month feature
+- Identified and capped selected outliers at the 95th percentile
+- Summarized behavioral patterns associated with user churn
+
+## Key Course 2 Findings
+
+- Approximately 17% of users churned and 83% were retained.
+- Device type did not show a meaningful difference in churn rate.
+- Users who drove longer distances per driving day were more likely to churn.
+- Users with more driving days and activity days were less likely to churn.
+- Many numerical variables were strongly right-skewed.
+- Some long-term users completed a surprisingly large percentage of their lifetime sessions during the most recent month.
+- The causes of churn among long-distance drivers warrant further investigation.
+
+## Project Files
+
+### Course 1
+
+- `waze_churn_analysis.ipynb` — initial data inspection and organization notebook
+
+### Course 2
+
+- `course-2-eda/waze_course2_eda.ipynb` — exploratory data analysis notebook
+- `course-2-eda/README.md` — Course 2 project summary
