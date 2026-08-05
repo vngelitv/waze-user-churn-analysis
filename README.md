@@ -138,7 +138,7 @@ This is an educational project based on synthetic data and course materials from
 
 ### Course 1
 
-- `waze_churn_analysis.ipynb` — initial data inspection and organization notebook
+- `waze_user_churn_analysis.ipynb` — initial data inspection and organization notebook
 
 ### Course 2
 
