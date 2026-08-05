@@ -45,7 +45,12 @@ The dataset is synthetic and was created for educational purposes. It does not r
 - Feature engineering
 - Churn analysis
 - Exploratory data analysis preparation
-
+- Matplotlib
+- Seaborn
+- Exploratory Data Analysis
+- Data Visualization
+- Feature Engineering
+  
 ## Tasks Completed
 
 - Imported the dataset into a pandas DataFrame
