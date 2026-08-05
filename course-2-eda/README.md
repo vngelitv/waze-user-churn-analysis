@@ -25,3 +25,7 @@ This folder contains the second phase of the Waze User Churn Analysis project.
 ## Files
 
 - `waze_course2_eda.ipynb` — completed Course 2 exploratory data analysis notebook
+
+## Visualization
+
+![Waze Churn Visualization](waze_churn_visualization.png)
