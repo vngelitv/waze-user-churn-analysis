@@ -134,6 +134,23 @@ This is an educational project based on synthetic data and course materials from
 - Some long-term users completed a surprisingly large percentage of their lifetime sessions during the most recent month.
 - The causes of churn among long-distance drivers warrant further investigation.
 
+### Course 3: Statistical Analysis and Hypothesis Testing
+
+- Compared average numbers of drives by device type
+- Encoded iPhone and Android users for analysis
+- Used descriptive statistics to compare groups
+- Formulated null and alternative hypotheses
+- Conducted a two-sample t-test
+- Used a 5% significance level
+- Found no statistically significant difference in mean drives between iPhone and Android users
+- Interpreted the result for business stakeholders
+
+## Key Course 3 Finding
+
+The difference in mean number of drives between iPhone and Android users was not statistically significant (`p ≈ 0.143`).
+
+Because the p-value was greater than the 0.05 significance level, the null hypothesis was not rejected. Device type alone does not appear to be an important predictor of driving behavior.
+
 ## Project Files
 
 ### Course 1
@@ -144,3 +161,8 @@ This is an educational project based on synthetic data and course materials from
 
 - `course-2-eda/waze_course2_eda.ipynb` — exploratory data analysis notebook
 - `course-2-eda/README.md` — Course 2 project summary
+
+### Course 3
+
+- `course-3-statistics/waze_course3_statistics.ipynb` — statistical analysis and hypothesis testing notebook
+- `course-3-statistics/README.md` — Course 3 project summary
