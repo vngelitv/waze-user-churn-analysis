@@ -151,6 +151,28 @@ The difference in mean number of drives between iPhone and Android users was not
 
 Because the p-value was greater than the 0.05 significance level, the null hypothesis was not rejected. Device type alone does not appear to be an important predictor of driving behavior.
 
+### Course 4: Logistic Regression
+
+- Performed EDA in preparation for predictive modeling
+- Examined missing values, class balance, outliers, and correlations
+- Engineered `km_per_driving_day` and `professional_driver` features
+- Handled missing target values and imputed extreme outliers
+- Encoded categorical and target variables for modeling
+- Evaluated multicollinearity among predictors
+- Split the data into training and testing sets
+- Built a binomial logistic regression model to predict user churn
+- Evaluated predictions using accuracy, precision, recall, and a confusion matrix
+- Interpreted model coefficients and assessed logistic regression assumptions
+
+## Key Course 4 Findings
+
+Professional drivers had a churn rate of approximately 7.6%, compared with approximately 19.9% for non-professional drivers.
+
+The logistic regression model demonstrated reasonable precision but low recall when identifying churned users. This means the model missed many users who actually churned.
+
+Because identifying users at risk of leaving is the primary business objective, the model would benefit from additional feature engineering, model tuning, and comparison with other classification methods before deployment.
+
+
 ## Project Files
 
 ### Course 1
@@ -166,3 +188,8 @@ Because the p-value was greater than the 0.05 significance level, the null hypot
 
 - `course-3-statistics/waze_course3_statistics.ipynb` — statistical analysis and hypothesis testing notebook
 - `course-3-statistics/README.md` — Course 3 project summary
+
+### Course 4
+
+- `course-4-regression/waze_course4_logistic_regression.ipynb` — logistic regression churn modeling notebook
+- `course-4-regression/README.md` — Course 4 project summary
