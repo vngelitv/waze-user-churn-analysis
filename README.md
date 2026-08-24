@@ -172,6 +172,28 @@ The logistic regression model demonstrated reasonable precision but low recall w
 
 Because identifying users at risk of leaving is the primary business objective, the model would benefit from additional feature engineering, model tuning, and comparison with other classification methods before deployment.
 
+### Course 5: Machine Learning
+
+- Engineered new user-behavior features for churn prediction
+- Prepared and encoded variables for machine learning
+- Split data into training, validation, and test sets
+- Built and tuned Random Forest and XGBoost classifiers
+- Used GridSearchCV and cross-validation
+- Evaluated models using recall, precision, F1 score, and accuracy
+- Selected XGBoost as the champion model
+- Evaluated the champion model on unseen test data
+- Created a confusion matrix
+- Examined feature importance
+
+## Key Course 5 Findings
+
+Approximately 18% of users in the dataset churned.
+
+Recall was prioritized because failing to identify users who actually churn could limit the usefulness of the model for retention efforts.
+
+XGBoost outperformed the Random Forest model on validation data and was selected as the champion model.
+
+The final model still had difficulty identifying a large portion of churned users, suggesting that additional behavioral features and further model development would be needed before deployment.
 
 ## Project Files
 
@@ -193,3 +215,8 @@ Because identifying users at risk of leaving is the primary business objective, 
 
 - `course-4-regression/waze_course4_logistic_regression.ipynb` — logistic regression churn modeling notebook
 - `course-4-regression/README.md` — Course 4 project summary
+
+### Course 5
+
+- `course-5-machine-learning/waze_course5_machine_learning.ipynb` — Random Forest and XGBoost churn modeling notebook
+- `course-5-machine-learning/README.md` — Course 5 project summary
